@@ -4,9 +4,9 @@
 
 This project builds a professional Iris flower classification system using the Iris dataset from scikit-learn. It includes a complete machine learning workflow with data validation, exploratory data analysis, preprocessing, model training, evaluation, model persistence, CLI prediction, and a polished Streamlit dashboard.
 
-<p align="center">
-  <img src="Project-Overview.jpeg" width="95%">
-</p>
+<img width="1824" height="966" alt="Project-Overview" src="https://github.com/user-attachments/assets/d954e371-a1fe-4642-8484-b5fcfed9d79c" />
+
+
 
 ## Problem Statement
 
@@ -62,17 +62,14 @@ The dataset is loaded directly from scikit-learn and includes 150 Iris flower sa
 
 The project includes dataset overview metrics, class distribution charts, feature distributions, pairwise relationship plots, and correlation heatmaps.
 
-<p align="center">
-  <img src="exploratory%20Data%20Analysis.jpeg" width="95%">
-</p>
+<img width="1814" height="906" alt="exploratory Data Analysis" src="https://github.com/user-attachments/assets/9f1b208c-e155-4bfc-85cc-d2d407f47b96" />
+
 
 ### Feature Relationships
 
 The pairplot provides a visual comparison of the four numerical features across the three Iris species. It helps identify patterns, relationships, and separation between the classes.
 
-<p align="center">
-  <img src="exploratory%20Data%20Analysis-2.png" width="90%">
-</p>
+<img width="1460" height="1290" alt="exploratory Data Analysis-2" src="https://github.com/user-attachments/assets/586acec6-4610-43d1-b2d1-08734c30e02b" />
 
 ## Models Used
 
@@ -84,9 +81,7 @@ The pairplot provides a visual comparison of the four numerical features across 
 
 The trained models are compared using dynamic metrics generated from test data.
 
-<p align="center">
-  <img src="model%20performance.jpeg" width="95%">
-</p>
+<img width="1833" height="958" alt="model performance" src="https://github.com/user-attachments/assets/a5c6355e-3597-4b98-96f5-1d774e770d35" />
 
 ## Evaluation Metrics
 
@@ -101,9 +96,7 @@ The trained models are compared using dynamic metrics generated from test data.
 
 Confusion matrices show how often each Iris species was classified correctly and where the models made classification errors.
 
-<p align="center">
-  <img src="confusion%20matrix.jpeg" width="95%">
-</p>
+<img width="1823" height="930" alt="confusion matrix" src="https://github.com/user-attachments/assets/bbb990bb-2b81-44cd-bdc1-13d10e3ae566" />
 
 ## Feature Importance
 
@@ -116,9 +109,8 @@ Feature importance is visualized for the Decision Tree model, and logistic regre
 
 The dashboard allows users to enter sepal and petal measurements and receive a predicted Iris species along with prediction probabilities and confidence.
 
-<p align="center">
-  <img src="prediction%20with%20result.jpeg" width="95%">
-</p>
+<img width="1837" height="936" alt="prediction with result" src="https://github.com/user-attachments/assets/2ddef68a-9e80-43ca-97aa-e071dd011059" />
+
 
 ## Project Structure
 
