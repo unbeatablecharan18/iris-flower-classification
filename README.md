@@ -3,65 +3,34 @@
 ## Project Overview
 
 This project builds a professional Iris flower classification system using the Iris dataset from scikit-learn. It includes a complete machine learning workflow with data validation, exploratory data analysis, preprocessing, model training, evaluation, model persistence, CLI prediction, and a polished Streamlit dashboard.
-## 📸 Project Showcase
-
-### 🏠 Project Dashboard
 
 <p align="center">
   <img src="images/project-overview.jpeg" width="95%">
 </p>
 
-### 📊 Exploratory Data Analysis
-
-<p align="center">
-  <img src="images/exploratory-data-analysis.jpeg" width="95%">
-</p>
-
-### 🔍 Feature Relationships
-
-<p align="center">
-  <img src="images/exploratory-data-analysis-2.png" width="85%">
-</p>
-
-### 🤖 Model Performance
-
-<p align="center">
-  <img src="images/model-performance.jpeg" width="95%">
-</p>
-
-### 📈 Confusion Matrix
-
-<p align="center">
-  <img src="images/confusion-matrix.jpeg" width="95%">
-</p>
-
-### 🌸 Flower Prediction
-
-<p align="center">
-  <img src="images/prediction-with-result.jpeg" width="95%">
-</p>
-
 ## Problem Statement
 
 Predict the species of an Iris flower based on four measurements:
-- Sepal length
-- Sepal width
-- Petal length
-- Petal width
+
+* Sepal length
+* Sepal width
+* Petal length
+* Petal width
 
 The species labels are:
-- Iris Setosa
-- Iris Versicolor
-- Iris Virginica
+
+* Iris Setosa
+* Iris Versicolor
+* Iris Virginica
 
 ## Objectives
 
-- Load and validate the Iris dataset
-- Perform exploratory data analysis with visualizations
-- Train and compare Logistic Regression, Decision Tree, and Random Forest models
-- Evaluate models using accuracy, precision, recall, and F1 score
-- Save model pipelines with Joblib
-- Provide both CLI and Streamlit-based prediction interfaces
+* Load and validate the Iris dataset
+* Perform exploratory data analysis with visualizations
+* Train and compare Logistic Regression, Decision Tree, and Random Forest models
+* Evaluate models using accuracy, precision, recall, and F1 score
+* Save model pipelines with Joblib
+* Provide both CLI and Streamlit-based prediction interfaces
 
 ## Dataset
 
@@ -69,15 +38,15 @@ The dataset is loaded directly from scikit-learn and includes 150 Iris flower sa
 
 ## Technologies Used
 
-- Python 3
-- pandas
-- NumPy
-- scikit-learn
-- matplotlib
-- seaborn
-- plotly
-- Streamlit
-- joblib
+* Python 3
+* pandas
+* NumPy
+* scikit-learn
+* matplotlib
+* seaborn
+* plotly
+* Streamlit
+* joblib
 
 ## Machine Learning Workflow
 
@@ -93,24 +62,48 @@ The dataset is loaded directly from scikit-learn and includes 150 Iris flower sa
 
 The project includes dataset overview metrics, class distribution charts, feature distributions, pairwise relationship plots, and correlation heatmaps.
 
+<p align="center">
+  <img src="images/exploratory-data-analysis.jpeg" width="95%">
+</p>
+
+### Feature Relationships
+
+The feature relationships across the Iris species are explored using pairwise visualizations to understand how the four measurements differ between classes.
+
+<p align="center">
+  <img src="images/exploratory-data-analysis-2.png" width="90%">
+</p>
+
 ## Models Used
 
-- Logistic Regression
-- Decision Tree Classifier
-- Random Forest Classifier
+* Logistic Regression
+* Decision Tree Classifier
+* Random Forest Classifier
 
 ## Model Comparison
 
 The trained models are compared using dynamic metrics generated from test data.
 
+<p align="center">
+  <img src="images/model-performance.jpeg" width="95%">
+</p>
+
 ## Evaluation Metrics
 
-- Accuracy
-- Precision
-- Recall
-- F1 score
-- Confusion matrices
-- Classification report
+* Accuracy
+* Precision
+* Recall
+* F1 score
+* Confusion matrices
+* Classification report
+
+## Confusion Matrix
+
+Confusion matrices are used to evaluate the classification performance of the trained models and identify correctly classified and misclassified Iris samples.
+
+<p align="center">
+  <img src="images/confusion-matrix.jpeg" width="95%">
+</p>
 
 ## Feature Importance
 
@@ -118,12 +111,16 @@ Feature importance is visualized for the Decision Tree model, and logistic regre
 
 ## Prediction System
 
-- `app.py` provides an interactive Streamlit dashboard
-- `src/predict.py` provides a CLI prediction script
+* `app.py` provides an interactive Streamlit dashboard
+* `src/predict.py` provides a CLI prediction script
+
+<p align="center">
+  <img src="images/prediction-with-result.jpeg" width="95%">
+</p>
 
 ## Project Structure
 
-```
+```text
 iris-flower-classification/
 ├── data/
 ├── models/
@@ -177,23 +174,26 @@ python src/predict.py 5.1 3.5 1.4 0.2
 ```
 
 Expected output:
-- Predicted species: Setosa
-- Probabilities for all species if supported by the selected model
+
+* Predicted species: Setosa
+* Probabilities for all species if supported by the selected model
 
 ## Results
 
 The model training produced the following results:
-- Decision Tree achieved the best test accuracy: 0.9667
-- Logistic Regression test accuracy: 0.9333
-- Random Forest test accuracy: 0.9000
+
+* Decision Tree achieved the best test accuracy: 0.9667
+* Logistic Regression test accuracy: 0.9333
+* Random Forest test accuracy: 0.9000
 
 ## Future Improvements
 
-- Add hyperparameter tuning using GridSearchCV
-- Add cross-validation consistency checks
-- Export the Streamlit app to a Docker container
-- Add unit tests for preprocessing and prediction code
+* Add hyperparameter tuning using GridSearchCV
+* Add cross-validation consistency checks
+* Export the Streamlit app to a Docker container
+* Add unit tests for preprocessing and prediction code
 
 ## Author
 
 Iris Flower Classification — Intelligent Species Prediction System
+
