@@ -5,7 +5,7 @@
 This project builds a professional Iris flower classification system using the Iris dataset from scikit-learn. It includes a complete machine learning workflow with data validation, exploratory data analysis, preprocessing, model training, evaluation, model persistence, CLI prediction, and a polished Streamlit dashboard.
 
 <p align="center">
-  <img src="images/project-overview.jpeg" width="95%">
+  <img src="Project-Overview.jpeg" width="95%">
 </p>
 
 ## Problem Statement
@@ -63,15 +63,15 @@ The dataset is loaded directly from scikit-learn and includes 150 Iris flower sa
 The project includes dataset overview metrics, class distribution charts, feature distributions, pairwise relationship plots, and correlation heatmaps.
 
 <p align="center">
-  <img src="images/exploratory-data-analysis.jpeg" width="95%">
+  <img src="exploratory%20Data%20Analysis.jpeg" width="95%">
 </p>
 
 ### Feature Relationships
 
-The feature relationships across the Iris species are explored using pairwise visualizations to understand how the four measurements differ between classes.
+The pairplot provides a visual comparison of the four numerical features across the three Iris species. It helps identify patterns, relationships, and separation between the classes.
 
 <p align="center">
-  <img src="images/exploratory-data-analysis-2.png" width="90%">
+  <img src="exploratory%20Data%20Analysis-2.png" width="90%">
 </p>
 
 ## Models Used
@@ -85,7 +85,7 @@ The feature relationships across the Iris species are explored using pairwise vi
 The trained models are compared using dynamic metrics generated from test data.
 
 <p align="center">
-  <img src="images/model-performance.jpeg" width="95%">
+  <img src="model%20performance.jpeg" width="95%">
 </p>
 
 ## Evaluation Metrics
@@ -99,10 +99,10 @@ The trained models are compared using dynamic metrics generated from test data.
 
 ## Confusion Matrix
 
-Confusion matrices are used to evaluate the classification performance of the trained models and identify correctly classified and misclassified Iris samples.
+Confusion matrices show how often each Iris species was classified correctly and where the models made classification errors.
 
 <p align="center">
-  <img src="images/confusion-matrix.jpeg" width="95%">
+  <img src="confusion%20matrix.jpeg" width="95%">
 </p>
 
 ## Feature Importance
@@ -114,8 +114,10 @@ Feature importance is visualized for the Decision Tree model, and logistic regre
 * `app.py` provides an interactive Streamlit dashboard
 * `src/predict.py` provides a CLI prediction script
 
+The dashboard allows users to enter sepal and petal measurements and receive a predicted Iris species along with prediction probabilities and confidence.
+
 <p align="center">
-  <img src="images/prediction-with-result.jpeg" width="95%">
+  <img src="prediction%20with%20result.jpeg" width="95%">
 </p>
 
 ## Project Structure
@@ -136,6 +138,12 @@ iris-flower-classification/
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
+├── Project-Overview.jpeg
+├── confusion matrix.jpeg
+├── exploratory Data Analysis-2.png
+├── exploratory Data Analysis.jpeg
+├── model performance.jpeg
+└── prediction with result.jpeg
 ```
 
 ## Installation
@@ -182,9 +190,11 @@ Expected output:
 
 The model training produced the following results:
 
-* Decision Tree achieved the best test accuracy: 0.9667
-* Logistic Regression test accuracy: 0.9333
-* Random Forest test accuracy: 0.9000
+* **Decision Tree:** 0.9667 test accuracy
+* **Logistic Regression:** 0.9333 test accuracy
+* **Random Forest:** 0.9000 test accuracy
+
+The Decision Tree achieved the best overall test accuracy among the three evaluated models.
 
 ## Future Improvements
 
@@ -195,5 +205,4 @@ The model training produced the following results:
 
 ## Author
 
-Iris Flower Classification — Intelligent Species Prediction System
-
+**Iris Flower Classification — Intelligent Species Prediction System**
