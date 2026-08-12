@@ -3,6 +3,43 @@
 ## Project Overview
 
 This project builds a professional Iris flower classification system using the Iris dataset from scikit-learn. It includes a complete machine learning workflow with data validation, exploratory data analysis, preprocessing, model training, evaluation, model persistence, CLI prediction, and a polished Streamlit dashboard.
+## 📸 Project Showcase
+
+### 🏠 Project Dashboard
+
+<p align="center">
+  <img src="images/project-overview.jpeg" width="95%">
+</p>
+
+### 📊 Exploratory Data Analysis
+
+<p align="center">
+  <img src="images/exploratory-data-analysis.jpeg" width="95%">
+</p>
+
+### 🔍 Feature Relationships
+
+<p align="center">
+  <img src="images/exploratory-data-analysis-2.png" width="85%">
+</p>
+
+### 🤖 Model Performance
+
+<p align="center">
+  <img src="images/model-performance.jpeg" width="95%">
+</p>
+
+### 📈 Confusion Matrix
+
+<p align="center">
+  <img src="images/confusion-matrix.jpeg" width="95%">
+</p>
+
+### 🌸 Flower Prediction
+
+<p align="center">
+  <img src="images/prediction-with-result.jpeg" width="95%">
+</p>
 
 ## Problem Statement
 
